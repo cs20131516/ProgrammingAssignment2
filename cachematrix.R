@@ -37,3 +37,23 @@ cacheSolve <- function(x, ...) {
     x$setinverse(i)
     i
 }
+
+#order
+#source("cachematrix.R")
+#x = rbind(c(3,4),c(5,6))
+#m = makeCacheMatrix(x)
+#m$get()
+#Can see the martix
+#     [,1] [,2]
+#[1,]    3    4
+#[2,]    5    6
+#cacheSolve(m)
+#Can see the solve
+#     [,1] [,2]
+#[1,] -3.0  2.0
+#[2,]  2.5 -1.5
+#cacheSolve(m)
+#getting cached data
+#     [,1] [,2]
+#[1,] -3.0  2.0
+#[2,]  2.5 -1.5
